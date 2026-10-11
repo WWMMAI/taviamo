@@ -1,0 +1,1 @@
+import{j as n}from"./index-DDRH4zYj.js";import{u as a,L as t,h as c}from"./imageProvider-BgZF6wvo.js";function u(){const e=a();return n.jsx("div",{className:"chips",children:Object.entries(t).map(([s,i])=>n.jsx("button",{"aria-pressed":e.includes(s),className:e.includes(s)?"on":"",onClick:()=>c(e.includes(s)?e.filter(r=>r!==s):[...e,s]),children:i},s))})}export{u as L};
